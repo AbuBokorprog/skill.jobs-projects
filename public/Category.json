@@ -1,22 +1,26 @@
  [
       {
-        "logo": "https://example.com/job-logo1.png",
+        "id": 1,
+        "logo": "https://img.freepik.com/free-icon/user_318-699557.jpg?size=626&ext=jpg&ga=GA1.2.825737080.1674060681&semt=ais",
         "name": "Software Engineer",
         "jobs_available": 80
       },
       {
-        "logo": "https://example.com/job-logo2.png",
+        "id": 2,
+        "logo": "https://cdn-icons-png.flaticon.com/512/921/921577.png?w=740&t=st=1681106938~exp=1681107538~hmac=c1e2f7022090e012d6b1c85e62726488a41573d1abd170eeb70493a17208744d",
         "name": "Web Developer",
         "jobs_available": 50
       },
       {
-        "logo": "https://example.com/job-logo3.png",
+        "id": 3,
+        "logo": "https://img.freepik.com/free-icon/businessman-with-stats-bars-graphic_318-63543.jpg?size=626&ext=jpg&ga=GA1.1.825737080.1674060681&semt=ais",
         "name": "Data Scientist",
         "jobs_available": 73
       },
       {
-        "logo": "https://example.com/job-logo4.png",
-        "name": "Information Security Analyst",
+        "id": 4,
+        "logo": "https://img.freepik.com/free-icon/data_318-416872.jpg?size=626&ext=jpg&ga=GA1.2.825737080.1674060681&semt=ais",
+        "name": "Security Analyst",
         "jobs_available": 50
       }
     ]

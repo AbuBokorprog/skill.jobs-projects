@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <div className=" px-5 container-lg mx-20 py-5 flex justify-between items-center">
-      <p className="text-2xl font-medium">Skill.Jobs</p>
+      <p className="text-3xl font-semibold text-pink-500">Skill.Jobs</p>
       <nav className="">
         <Link className="mx-5 text-slate-600" to="/">
           Home
