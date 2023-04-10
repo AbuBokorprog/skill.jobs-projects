@@ -1,0 +1,22 @@
+ [
+      {
+        "logo": "https://example.com/job-logo1.png",
+        "name": "Software Engineer",
+        "jobs_available": 80
+      },
+      {
+        "logo": "https://example.com/job-logo2.png",
+        "name": "Web Developer",
+        "jobs_available": 50
+      },
+      {
+        "logo": "https://example.com/job-logo3.png",
+        "name": "Data Scientist",
+        "jobs_available": 73
+      },
+      {
+        "logo": "https://example.com/job-logo4.png",
+        "name": "Information Security Analyst",
+        "jobs_available": 50
+      }
+    ]

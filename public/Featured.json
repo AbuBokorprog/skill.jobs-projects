@@ -1,0 +1,110 @@
+[
+      {
+        "id": "job001",
+        "company_logo": "https://example.com/company1-logo.png",
+        "job_title": "Software Engineer",
+        "company_name": "Acme Corporation",
+        "remote_or_onsite": "Remote",
+        "location": "Anywhere",
+        "fulltime_or_parttime": "Fulltime",
+        "salary": "$120,000 - $150,000 per year",
+        "job_description": "We are looking for a highly skilled software engineer to join our team...",
+        "job_responsibility": "Design and develop software applications, participate in code reviews...",
+        "educational_requirements": "Bachelor's degree in Computer Science or related field",
+        "experiences": "Minimum 5 years of experience in software development",
+        "contact_information": {
+          "phone": "555-1234",
+          "email": "jobs@acmecorp.com"
+        }
+      },
+      {
+        "id": "job002",
+        "company_logo": "https://example.com/company2-logo.png",
+        "job_title": "Data Analyst",
+        "company_name": "Beta Inc.",
+        "remote_or_onsite": "Onsite",
+        "location": "New York, NY",
+        "fulltime_or_parttime": "Fulltime",
+        "salary": "$90,000 - $110,000 per year",
+        "job_description": "We are seeking a data analyst to help us analyze and interpret large...",
+        "job_responsibility": "Analyze data, create reports and dashboards, communicate insights...",
+        "educational_requirements": "Bachelor's degree in Mathematics, Statistics, or related field",
+        "experiences": "Minimum 2 years of experience in data analysis",
+        "contact_information": {
+          "phone": "555-5678",
+          "email": "jobs@betainc.com"
+        }
+      },
+      {
+        "id": "job003",
+        "company_logo": "https://example.com/company3-logo.png",
+        "job_title": "Frontend Developer",
+        "company_name": "Gamma Corp.",
+        "remote_or_onsite": "Onsite",
+        "location": "Chicago, IL",
+        "fulltime_or_parttime": "Fulltime",
+        "salary": "$100,000 - $130,000 per year",
+        "job_description": "We are looking for a frontend developer to help us build modern, responsive...",
+        "job_responsibility": "Develop new user-facing features, optimize applications for speed and scalability...",
+        "educational_requirements": "Bachelor's degree in Computer Science or related field",
+        "experiences": "Minimum 3 years of experience in frontend development",
+        "contact_information": {
+          "phone": "555-9012",
+          "email": "jobs@gammacorp.com"
+        }
+      },
+          {
+            "id": "job004",
+            "company_logo": "https://example.com/company5-logo.png",
+            "job_title": "Product Manager",
+            "company_name": "Epsilon Inc.",
+            "remote_or_onsite": "Remote",
+            "location": "Anywhere",
+            "fulltime_or_parttime": "Fulltime",
+            "salary": "$120,000 - $140,000 per year",
+            "job_description": "We are seeking a product manager to help us define and execute our product strategy...",
+            "job_responsibility": "Define and prioritize product features, conduct market research...",
+            "educational_requirements": "Bachelor's degree in Business, Computer Science, or related field",
+            "experiences": "Minimum 5 years of experience in product management",
+            "contact_information": {
+              "phone": "555-3456",
+              "email": "jobs@epsiloninc.com"
+            }
+          },
+          {
+            "id": "job005",
+            "company_logo": "https://example.com/company6-logo.png",
+            "job_title": "Graphic Designer",
+            "company_name": "Zeta Design",
+            "remote_or_onsite": "Onsite",
+            "location": "San Francisco, CA",
+            "fulltime_or_parttime": "Part-time",
+            "salary": "$60,000 - $80,000 per year (pro-rated)",
+            "job_description": "We are seeking a part-time graphic designer to help us create visually appealing designs...",
+            "job_responsibility": "Create designs for print and digital media, collaborate with other designers and stakeholders...",
+            "educational_requirements": "Bachelor's degree in Graphic Design, Fine Arts, or related field",
+            "experiences": "Minimum 2 years of experience in graphic design",
+            "contact_information": {
+              "phone": "555-7890",
+              "email": "jobs@zetadesign.com"
+            }
+          },
+          {
+            "id": "job006",
+            "company_logo": "https://example.com/company7-logo.png",
+            "job_title": "Business Analyst",
+            "company_name": "Eta Analytics",
+            "remote_or_onsite": "Remote",
+            "location": "Anywhere",
+            "fulltime_or_parttime": "Fulltime",
+            "salary": "$90,000 - $110,000 per year",
+            "job_description": "We are seeking a business analyst to help us analyze and interpret data...",
+            "job_responsibility": "Analyze data, create reports and dashboards, communicate insights...",
+            "educational_requirements": "Bachelor's degree in Business, Mathematics, or related field",
+            "experiences": "Minimum 3 years of experience in business analysis",
+            "contact_information": {
+              "phone": "555-1234",
+              "email": "jobs@etaanalytics.com"
+            }
+          }
+      ]
