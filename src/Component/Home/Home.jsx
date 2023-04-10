@@ -5,13 +5,13 @@ import Category from "./Category/Category";
 import Feature from "./Feature/Feature";
 
 const Home = () => {
-  const categories = useLoaderData();
+  const features = useLoaderData();
   //console.log(category);
-  const [features, setFeatures] = useState([]);
+  const [categories, setCategories] = useState([]);
   useEffect(() => {
-    fetch("Featured.json")
+    fetch("Category.json")
       .then((res) => res.json())
-      .then((data) => setFeatures(data));
+      .then((data) => setCategories(data));
   }, []);
   let button;
   let feature;

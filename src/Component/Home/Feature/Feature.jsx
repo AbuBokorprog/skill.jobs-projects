@@ -1,7 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import Details from "./Details/Details";
 
 const Feature = ({ feature }) => {
-  console.log(feature);
+  //console.log(feature);
   const {
     id,
     company_logo,
@@ -12,6 +14,8 @@ const Feature = ({ feature }) => {
     salary,
     fulltime_or_parttime,
   } = feature;
+
+  //const f = feature.find((F) => F.id === id);
   return (
     <div className=" border py-3 px-5 border-gray-400">
       <img className="img-full w-40" src={company_logo} alt="logo" />
@@ -29,9 +33,12 @@ const Feature = ({ feature }) => {
         <p>{location}</p>
         <p>{salary}</p>
       </div>
-      <button className="btn bg-gradient-to-r from-sky-500 to-indigo-500">
-        View Details
-      </button>
+      <Link to={`/${id}`}>
+        <button className="btn bg-gradient-to-r from-sky-500 to-indigo-500">
+          View Details
+        </button>
+      </Link>
+      <Details feature={feature}></Details>
     </div>
   );
 };
