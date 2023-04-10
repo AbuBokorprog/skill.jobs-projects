@@ -22,7 +22,7 @@ const Banner = () => {
       <div>
         <img
           className=""
-          src="https://img.freepik.com/free-photo/man-holding-something_1368-3677.jpg?w=826&t=st=1681103458~exp=1681104058~hmac=5ae66984000fa3bdcb95e2dbc1b2d7c6d4a450cc04a2e180dd6f6c33a1ad821d"
+          src="../../../../public/All Images/P3OLGJ1 copy 1.png"
           alt=""
         />
       </div>
