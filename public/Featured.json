@@ -12,10 +12,8 @@
     "job_responsibility": "Design and develop software applications, participate in code reviews...",
     "educational_requirements": "Bachelor's degree in Computer Science or related field",
     "experiences": "Minimum 5 years of experience in software development",
-    "contact_information": {
-      "phone": "555-1234",
-      "email": "jobs@acmecorp.com"
-    }
+    "phone": "555-1234",
+    "email": "jobs@acmecorp.com"
   },
   {
     "id": "job002",
@@ -30,10 +28,8 @@
     "job_responsibility": "Analyze data, create reports and dashboards, communicate insights...",
     "educational_requirements": "Bachelor's degree in Mathematics, Statistics, or related field",
     "experiences": "Minimum 2 years of experience in data analysis",
-    "contact_information": {
-      "phone": "555-5678",
-      "email": "jobs@betainc.com"
-    }
+    "phone": "555-5678",
+    "email": "jobs@betainc.com"
   },
   {
     "id": "job003",
@@ -48,10 +44,8 @@
     "job_responsibility": "Develop new user-facing features, optimize applications for speed and scalability...",
     "educational_requirements": "Bachelor's degree in Computer Science or related field",
     "experiences": "Minimum 3 years of experience in frontend development",
-    "contact_information": {
-      "phone": "555-9012",
-      "email": "jobs@gammacorp.com"
-    }
+    "phone": "555-9012",
+    "email": "jobs@gammacorp.com"
   },
   {
     "id": "job004",
@@ -66,10 +60,8 @@
     "job_responsibility": "Define and prioritize product features, conduct market research...",
     "educational_requirements": "Bachelor's degree in Business, Computer Science, or related field",
     "experiences": "Minimum 5 years of experience in product management",
-    "contact_information": {
-      "phone": "555-3456",
-      "email": "jobs@epsiloninc.com"
-    }
+    "phone": "555-3456",
+    "email": "jobs@epsiloninc.com"
   },
   {
     "id": "job005",
@@ -84,10 +76,8 @@
     "job_responsibility": "Create designs for print and digital media, collaborate with other designers and stakeholders...",
     "educational_requirements": "Bachelor's degree in Graphic Design, Fine Arts, or related field",
     "experiences": "Minimum 2 years of experience in graphic design",
-    "contact_information": {
-      "phone": "555-7890",
-      "email": "jobs@zetadesign.com"
-    }
+    "phone": "555-7890",
+    "email": "jobs@zetadesign.com"
   },
   {
     "id": "job006",
@@ -102,9 +92,7 @@
     "job_responsibility": "Analyze data, create reports and dashboards, communicate insights...",
     "educational_requirements": "Bachelor's degree in Business, Mathematics, or related field",
     "experiences": "Minimum 3 years of experience in business analysis",
-    "contact_information": {
-      "phone": "555-1234",
-      "email": "jobs@etaanalytics.com"
-    }
+    "phone": "555-1234",
+    "email": "jobs@etaanalytics.com"
   }
 ]

@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Details from "./Details/Details";
 
 const Feature = ({ feature }) => {
   //console.log(feature);
@@ -38,7 +37,6 @@ const Feature = ({ feature }) => {
           View Details
         </button>
       </Link>
-      <Details feature={feature}></Details>
     </div>
   );
 };

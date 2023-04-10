@@ -8,7 +8,7 @@ import Home from "./Component/Home/Home";
 import Statics from "./Component/Statics/Statics";
 import AppliedJobs from "./Component/Applied-Jobs/AppliedJobs";
 import Blogs from "./Component/Blogs/Blogs";
-import Details from "./Component/Home/Feature/Details/Details";
+import JobDetails from "./Component/JobDetails/JobDetails";
 
 const router = createBrowserRouter([
   {
@@ -22,7 +22,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/:featureId",
-        element: <Details></Details>,
+        element: <JobDetails></JobDetails>,
         loader: () => fetch(`Featured.json`),
       },
       {
