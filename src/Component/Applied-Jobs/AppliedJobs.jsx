@@ -8,9 +8,7 @@ const AppliedJobs = () => {
   return (
     <div className="container-lg mx-20 my-10">
       <div className="text-center">
-        <h2 className="text-4xl font-semibold">
-          Applied Jobs {cartJobs.length}
-        </h2>
+        <h2 className="text-4xl font-semibold">Applied Jobs</h2>
       </div>
       <div className="flex h-full flex-col mx-20 my-20 gap-5 justify-center">
         {cartJobs.map((cart) => (
