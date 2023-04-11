@@ -23,9 +23,9 @@ const Statics = () => {
   return (
     <div>
       <div className="text-center flex justify-around items-center bg-slate-300">
-        <img className="w-44" src="/public/All Images/Vector.png" alt="" />
+        <img className="w-44" src="All Images/Vector.png" alt="" />
         <h2 className="text-4xl font-semibold">Statics</h2>
-        <img className="w-44" src="/public/All Images/Vector-1.png" alt="" />
+        <img className="w-44" src="All Images/Vector-1.png" alt="" />
       </div>
       <div className="my-10 container-lg mx-20">
         <AreaChart
@@ -35,13 +35,10 @@ const Statics = () => {
           margin={{ top: 10, right: 30, left: 0, bottom: 0 }}
         >
           <defs>
-            <linearGradient
-              id="colorUv"
-              x1="0"
-              y1="0"
-              x2="1"
-              y2="1"
-            ></linearGradient>
+            <linearGradient id="colorUv" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="5%" stopColor="#82ca9d" stopOpacity={0.8} />
+              <stop offset="95%" stopColor="#82ca9d" stopOpacity={0} />
+            </linearGradient>
           </defs>
           <XAxis dataKey="name" />
           <YAxis dataKey="marks" />

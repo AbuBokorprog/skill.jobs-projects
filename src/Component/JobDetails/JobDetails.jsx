@@ -36,9 +36,9 @@ const JobDetails = () => {
   return (
     <div className="">
       <div className="text-center flex justify-around items-center bg-slate-300">
-        <img className="w-44" src="/public/All Images/Vector.png" alt="" />
+        <img className="w-44" src="All Images/Vector.png" alt="" />
         <h2 className="text-4xl font-semibold">Job Details</h2>
-        <img className="w-44" src="/public/All Images/Vector-1.png" alt="" />
+        <img className="w-44" src="All Images/Vector-1.png" alt="" />
       </div>
       <div className="flex gap-5 container-lg mx-20 my-10">
         {/* description */}
