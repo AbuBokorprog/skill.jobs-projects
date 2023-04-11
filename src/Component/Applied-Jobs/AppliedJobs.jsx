@@ -12,7 +12,7 @@ const AppliedJobs = () => {
           Applied Jobs {cartJobs.length}
         </h2>
       </div>
-      <div className="flex flex-col my-20 gap-5 justify-center">
+      <div className="flex h-full flex-col mx-20 my-20 gap-5 justify-center">
         {cartJobs.map((cart) => (
           <Cart cart={cart} key={cart.id}></Cart>
         ))}
