@@ -9,6 +9,7 @@ import Statics from "./Component/Statics/Statics";
 import AppliedJobs from "./Component/Applied-Jobs/AppliedJobs";
 import Blogs from "./Component/Blogs/Blogs";
 import JobDetails from "./Component/JobDetails/JobDetails";
+import jobsCart from "./Loader/jobsCart";
 
 const router = createBrowserRouter([
   {
@@ -32,6 +33,7 @@ const router = createBrowserRouter([
       {
         path: "applied-jobs",
         element: <AppliedJobs></AppliedJobs>,
+        loader: jobsCart,
       },
       {
         path: "blogs",

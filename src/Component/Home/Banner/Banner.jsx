@@ -20,11 +20,7 @@ const Banner = () => {
       </div>
       {/* banner img */}
       <div>
-        <img
-          className=""
-          src="../../../../public/All Images/P3OLGJ1 copy 1.png"
-          alt=""
-        />
+        <img className="" src="All Images/P3OLGJ1 copy 1.png" alt="" />
       </div>
     </div>
   );

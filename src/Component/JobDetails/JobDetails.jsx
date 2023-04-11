@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
+import { addToDb } from "../../utilities/fakedb";
 
 const JobDetails = () => {
   const details = useParams();
@@ -13,8 +14,15 @@ const JobDetails = () => {
     const singleDetails = jobs.find((d) => d.id === IdDetails);
     setFeatureDetails(singleDetails);
   }, []);
-  console.log(featureDetails);
+  //console.log(featureDetails);
+
+  const ApplyHandler = (circular) => {
+    console.log(circular);
+    addToDb(circular);
+  };
+
   const {
+    id,
     job_title,
     phone,
     educational_requirements,
@@ -30,7 +38,7 @@ const JobDetails = () => {
       <h2 className="text-center text-3xl font-medium mb-5">Job Details</h2>
       <div className="flex gap-5 ">
         {/* description */}
-        <div>
+        <div className="bg-pink-100 px-4 rounded-xl">
           <p className="my-4">
             <span className="font-bold">Job Description:</span>
             {job_description}
@@ -76,7 +84,10 @@ const JobDetails = () => {
             <span className="font-bold">Address:</span>
             {location}
           </p>
-          <button className="text-center btn bg-gradient-to-r from-purple-500 to-pink-500 px-20">
+          <button
+            onClick={() => ApplyHandler(id)}
+            className="text-center btn bg-gradient-to-r from-purple-500 to-pink-500 px-20"
+          >
             Apply Now
           </button>
         </div>
