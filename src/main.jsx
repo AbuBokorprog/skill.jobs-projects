@@ -37,9 +37,9 @@ const router = createBrowserRouter([
         loader: jobsCart,
       },
       {
-        path: "applied-jobs:id",
+        path: "applied-jobs:apply",
         element: <ApplyDetails></ApplyDetails>,
-        loader: () => fetch("Featured.json"),
+        loader: jobsCart,
       },
       {
         path: "blogs",

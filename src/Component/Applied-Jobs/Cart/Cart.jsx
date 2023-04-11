@@ -35,7 +35,7 @@ const Cart = ({ cart }) => {
         </div>
       </div>
       <div className="my-auto ml-auto">
-        <Link>
+        <Link to={`/${id}`}>
           <button className="btn bg-gradient-to-r from-sky-500 to-indigo-500">
             View Details
           </button>
