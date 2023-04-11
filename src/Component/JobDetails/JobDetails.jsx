@@ -34,9 +34,13 @@ const JobDetails = () => {
     salary,
   } = featureDetails;
   return (
-    <div className="container-lg mx-20 my-10">
-      <h2 className="text-center text-3xl font-medium mb-5">Job Details</h2>
-      <div className="flex gap-5 ">
+    <div className="">
+      <div className="text-center flex justify-around items-center bg-slate-300">
+        <img className="w-44" src="/public/All Images/Vector.png" alt="" />
+        <h2 className="text-4xl font-semibold">Job Details</h2>
+        <img className="w-44" src="/public/All Images/Vector-1.png" alt="" />
+      </div>
+      <div className="flex gap-5 container-lg mx-20 my-10">
         {/* description */}
         <div className="bg-pink-100 px-4 rounded-xl">
           <p className="my-4">

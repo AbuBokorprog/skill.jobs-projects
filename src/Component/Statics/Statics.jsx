@@ -21,34 +21,41 @@ const Statics = () => {
   ];
 
   return (
-    <div className="my-10 container-lg mx-20">
-      <AreaChart
-        width={1100}
-        height={400}
-        data={data}
-        margin={{ top: 10, right: 30, left: 0, bottom: 0 }}
-      >
-        <defs>
-          <linearGradient
-            id="colorUv"
-            x1="0"
-            y1="0"
-            x2="1"
-            y2="1"
-          ></linearGradient>
-        </defs>
-        <XAxis dataKey="name" />
-        <YAxis dataKey="marks" />
-        <CartesianGrid strokeDasharray="3 3" />
-        <Tooltip />
-        <Area
-          type="monotone"
-          dataKey="marks"
-          stroke="#8884d8"
-          fillOpacity={1}
-          fill="url(#colorUv)"
-        />
-      </AreaChart>
+    <div>
+      <div className="text-center flex justify-around items-center bg-slate-300">
+        <img className="w-44" src="/public/All Images/Vector.png" alt="" />
+        <h2 className="text-4xl font-semibold">Statics</h2>
+        <img className="w-44" src="/public/All Images/Vector-1.png" alt="" />
+      </div>
+      <div className="my-10 container-lg mx-20">
+        <AreaChart
+          width={1100}
+          height={400}
+          data={data}
+          margin={{ top: 10, right: 30, left: 0, bottom: 0 }}
+        >
+          <defs>
+            <linearGradient
+              id="colorUv"
+              x1="0"
+              y1="0"
+              x2="1"
+              y2="1"
+            ></linearGradient>
+          </defs>
+          <XAxis dataKey="name" />
+          <YAxis dataKey="marks" />
+          <CartesianGrid strokeDasharray="3 3" />
+          <Tooltip />
+          <Area
+            type="monotone"
+            dataKey="marks"
+            stroke="#8884d8"
+            fillOpacity={1}
+            fill="url(#colorUv)"
+          />
+        </AreaChart>
+      </div>
     </div>
   );
 };
