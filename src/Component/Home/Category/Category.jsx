@@ -4,7 +4,7 @@ const Category = ({ category }) => {
   //console.log(category);
   const { logo, name, jobs_available } = category;
   return (
-    <div className="container-lg mx-20 h-full">
+    <div className="container-lg md:mx-20 h-full">
       <div className="card px-4 py-5 mb-5 bg-red-200 shadow-xl">
         <img className="w-10" src={logo} alt="" />
         <h3 className="text-xl font-semibold">{name}</h3>

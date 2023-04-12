@@ -37,7 +37,7 @@ const Home = () => {
             need. Its your future
           </small>
         </p>
-        <div className="grid grid-cols-4 my-10">
+        <div className="grid md:grid-cols-4 my-10">
           {categories.map((c) => (
             <Category category={c} key={c.id}></Category>
           ))}
@@ -53,7 +53,7 @@ const Home = () => {
           </small>
         </p>
       </div>
-      <div className="container-lg mx-20 grid grid-cols-2 my-10 gap-5">
+      <div className="container-lg md:mx-20 md:grid grid-cols-2 my-10 gap-5">
         {features.slice(0, 4).map((f) => (
           <Feature feature={f} key={f.id}></Feature>
         ))}
